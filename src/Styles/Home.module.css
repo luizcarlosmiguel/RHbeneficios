@@ -1,0 +1,155 @@
+html, body
+{
+    overflow-x: hidden;
+    background-color: #f2f2f2;
+    color: black;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container p
+{
+    margin-top: 0;
+    font-size: 0.8em;
+}
+
+.container h1
+{
+    margin-bottom: 1.2vh;
+    margin-top: 3.5vh;
+    font-size: 2.6vh;
+}
+
+.container img
+{
+    width: 65%;
+    padding-top: 3vh;
+    padding-bottom: 2.5vh;
+}
+
+.selects {
+
+    appearance: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 7%;
+    gap: 0.2vh;
+
+}
+
+.selects select
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(207, 214, 215);
+    appearance: none;
+    border: 1px solid black;
+    border-radius: 4vh;
+    font-size: 1.5em;
+    text-align-last: center;
+    text-align: center;
+    padding: 2.75%;
+    width: 70%;
+    cursor: pointer;
+    color: black;
+}
+
+#down_one
+{
+    position: fixed;
+    left: 74%;
+    top: 60.2%;
+}
+
+#down_two
+{
+    position: fixed;
+    left: 74%;
+    top: 70%;
+}
+
+.contact
+{
+    margin-top: -1.5vh;
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;            /* distancia entre carta e o outro objeto */
+    margin-bottom: 5vh;
+}
+
+.contact div
+{
+    background-color: rgb(207, 214, 215);
+    padding: 2vh;
+    clip-path: circle();
+    cursor: pointer;
+}
+.contact section
+{
+    background-color: black;
+    border: 1px solid black;
+    clip-path: circle();
+    cursor: pointer;
+    border-radius: 4vh;
+}
+
+.Beneficios
+{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table 
+{
+    border-collapse: collapse;
+    margin-top: 6em;
+    margin-bottom: 0.5em;
+}
+
+table, tr, th
+{
+    border: 10px solid #f2f2f2;
+}
+
+th, tr{
+    padding: 0.8em 1em 0.8em 1em;
+    text-align: center;
+    font-size: 0.9em;
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+th
+{
+    background-color: rgb(207, 214, 215);
+}
+
+.colunn
+{
+    background-color: #f2f2f2;
+    padding: 0.5em 1em 0em 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+footer
+{
+    position: absolute; 
+    bottom: 0;
+}
